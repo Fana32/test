@@ -15,6 +15,9 @@ if(sexe=='M'){
  BMI= poids/(taille*taille);
  if(BMI<=27){
     printf("Normale");
+ } else
+ if (BMI>27 && BMI<32){
+    printf("obese");
  }
 
 return 0;
