@@ -19,6 +19,8 @@ if(sexe=='M'){
  if (BMI>27 && BMI<32){
     printf("obese");
  }
-
+ else{
+    printf("Malade");
+    }
 return 0;
 }
